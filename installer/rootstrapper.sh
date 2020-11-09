@@ -16,7 +16,9 @@ mkdir rootstrap/install-scripts/
 
 cd rootstrap/install-scripts
 
-curl -fsSL https://raw.githubusercontent.com/L4xus/rootstrap/main/install-scripts/scripter.sh | bash
+wget https://raw.githubusercontent.com/L4xus/rootstrap/main/install-scripts/scripter.sh
+
+bash scripter.sh
 
 cd /data/data/com.termux/files/
 
