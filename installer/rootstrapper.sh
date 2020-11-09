@@ -20,6 +20,10 @@ curl -fsSL https://raw.githubusercontent.com/L4xus/rootstrap/main/install-script
 
 cd /data/data/com.termux/files/
 
+echo cleaning....
+
+rm -rf archiveNew.tar.gz
+
 echo done...
 
 echo downloading bootstrap 📀
@@ -31,6 +35,10 @@ echo done
 echo unzipping bootstrap this might take some time...
 
 tar -k -zxf archiveNew.tar.gz
+
+cd usr
+
+chmod +x bin
 
 echo done...
 
