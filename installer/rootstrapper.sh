@@ -1,5 +1,9 @@
 echo starting to strap...
 
+pkg update && upgrade
+
+pkg install wget
+
 echo creating directories...
 
 cd /data/data/com.termux/files/
@@ -30,7 +34,7 @@ echo done...
 
 echo downloading bootstrap 📀
 
-curl https://github.com/L4xus/rootstrap/releases/download/0.0.1/ --output archiveNew.tar.gz
+wget https://github.com/L4xus/rootstrap/releases/download/0.0.1/archiveNew.tar.gz
 
 echo done
 
