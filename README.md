@@ -1,6 +1,7 @@
 # rootstrap
 new better termux bootstrap
 
+# MOVED TO https://github.com/rstrap
 
 **TO INSTALL:**
 
