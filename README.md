@@ -1,6 +1,10 @@
 # rootstrap
 new better termux bootstrap
 
+# COMING S00N:
+
+soon this will be avalible for ubuntu and https://repl.it for online testing...
+
 
 **TO INSTALL:**
 
