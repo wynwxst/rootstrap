@@ -46,6 +46,8 @@ cd usr
 
 chmod +x bin
 
+pkg update && upgrade
+
 pkg install zsh git man pip wget curl nano -y
 
 echo done...
