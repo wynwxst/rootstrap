@@ -15,7 +15,7 @@ new better termux bootstrap
 
 ```
 cd ~
-git clone https://github.com/L4xus/rootstrap/
+git clone https://github.com/Sakurai07/rootstrap/
 cd rootstrap
 cd installer
 bash rootstrapper.sh
