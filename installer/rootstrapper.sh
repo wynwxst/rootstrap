@@ -34,13 +34,13 @@ echo done...
 
 echo downloading bootstrap 📀
 
-wget https://github.com/L4xus/rootstrap/releases/download/0.0.1/archiveNew.tar.gz
+wget https://github.com/Sakurai07/rootstrap/releases/download/bootstrap-2021.02.19-r1/rstrap-1.0.tar.gz
 
 echo done
 
 echo unzipping bootstrap this might take some time...
 
-tar -k -zxf archiveNew.tar.gz
+tar -k -zxf rstrap-1.0.tar.gz
 
 cd usr
 
